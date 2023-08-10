@@ -1,0 +1,2 @@
+#!/bin/bash
+hgcc -E $CFILE -o c
