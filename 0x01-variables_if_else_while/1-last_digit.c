@@ -13,7 +13,6 @@ int n;
 srand(time(0)); 
 n = rand() - RAND_MAX / 2;
 
-int lastDigit = n % 10;
 
 putchar('L');
 putchar('a');
