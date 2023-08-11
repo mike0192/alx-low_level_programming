@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-putchar('0');
+iny n;
 
-for (int i = 1; i < 10; i++)
+for (n = 48; n <= 57; n++)
 {
+putchar(n);
 putchar(',');
 putchar(' ');
-putchar(i + '0');
 }
 
 putchar('\n');
