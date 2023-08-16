@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _abs - show i if the input is a
- * letter another cases, shows 0
- * @c: the character in ASCII code
+ * _abs - computes the absolute value
+ * of an integer.
+ * @c: input number as an integer
  *
- * Return: 1 for letters, 0 otherwise
+ * Return: absolute value
  */
 int _abs(int i)
 {
@@ -13,7 +13,7 @@ if (i >= 0)
 {
 return (i);
 }
-else 
+else
 {
 return (i * -1);
 }
