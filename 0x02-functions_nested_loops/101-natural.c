@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -8,15 +8,18 @@
  *              below 1024 (excluded)
  * Return: Always 0
  */
-int main(void)
-{
-int sum, num;
 
-for (num = 0; num < 1024; num++)
-{
-if ((num % 3 == 0) || (num % 5 == 0))
-sum += num;
+int main(void) {
+int limit = 1024;
+int sum = 0;
+
+for (int i = 1; i < limit; i++) {
+if (i % 3 == 0 || i % 5 == 0) {
+sum += i;
 }
-printf("%d\n", sum);
+}
+
+printf("The sum of multiples of 3 or 5 below %d is: %d\n", limit, sum);
+
 return (0);
 }
