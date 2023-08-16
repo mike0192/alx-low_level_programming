@@ -1,12 +1,14 @@
 #include "main.h"
-
+#include <stdio.h>
 /*
  * print_times_table - prints time table of n
  *
  * @n: takes number input
  */
 void print_times_table(int n)
+
 int pdx, mtx, nux;
+
 if (n <= 15 && n >= 0)
 {
 for (nux = 0; nux <= n; nux++)
