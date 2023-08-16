@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_sign - Prints the sign of a number
  * @n: The number to be checked
@@ -8,7 +8,7 @@
  * 0 and prints 0 if n is zero,
  * -1 and prints - if n is less than zero.
  */
-int print _sign(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
