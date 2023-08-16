@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _isalpha - show i if the input is a
- * letter another cases, shows 0
- * @c: the character in ASCII code
- *
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * @c: The character in ASCII code
  * Return: 1 for letters, 0 otherwise
  */
 int _isalpha(int c)
 {
-if(c = 97; <= 122; i++) || (c = 65; <= 98; i++) 
+if((c = 97; <= 122; i++) || (c = 65; <= 98; i++)) 
 {
 return (1);
 }
