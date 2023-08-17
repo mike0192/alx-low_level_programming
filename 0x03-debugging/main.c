@@ -8,13 +8,9 @@
 int main(void)
 {
 int i;
-if (i > 0)
-{
-printf(" the int is positive");
-}
-else
-{
-printf(" the int is negative");
-}
+
+i = 98;
+positive_or_negative(i);
+
 return (0);
 }
