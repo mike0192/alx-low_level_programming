@@ -6,14 +6,16 @@
  */
 void print_number(int n)
 {
+unsigned int num = n;
+/*first check if its negative*/
 if (n < 0)
 {
 putchar('-');
-n = -n;
+num = -num;
 }
-
-if (n / 10 != 0)
-print_number(n / 10);
-
-putchar((n % 10) + '0');
+/*print the first few digits*/
+if ((num / 10) > 0)
+print_number(num / 10);
+/*print the last digit*/
+putchar((num % 10) + '48');
 }
