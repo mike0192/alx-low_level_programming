@@ -13,7 +13,7 @@ int r = 0;
 int i = n;
 for(; r < i; r++)
 {
-src[r] = dest[r];
+dest[r] = src[r];
 n--;
 }
 return (dest);
