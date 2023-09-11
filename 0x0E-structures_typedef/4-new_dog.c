@@ -62,3 +62,4 @@ if (dog->name == NULL)
 free(dog);
 return (NULL);
 }
+}
