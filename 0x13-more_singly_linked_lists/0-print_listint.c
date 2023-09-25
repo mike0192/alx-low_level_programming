@@ -15,5 +15,5 @@ h = h->next;
 count++;
 }
 
-return count;
+return (count);
 }
