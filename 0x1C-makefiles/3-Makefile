@@ -8,7 +8,7 @@ all: $(OBJ)
 clean:
 	$(RM) *~ *.swp $(NAME)
 
-oclean: $(OBJ)
+oclean:
 	$(RM) $(OBJ)
 
 fclean: clean oclean
